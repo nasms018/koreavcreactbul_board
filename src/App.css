@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  width: 300px;
+  height: 100%;
+  border: 1px solid #282c34;
+}
