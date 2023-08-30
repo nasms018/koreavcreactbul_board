@@ -1,0 +1,55 @@
+{
+  "meta": [
+    {
+      "propName": "title",
+      "propCaption": "제목"
+    },
+    {
+      "propName": "likeCnt",
+      "propCaption": "좋아요"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": "a001",
+      "title": "고양이키우기",
+      "content": "삼일에 한번씩은 밥주기",
+      "color": "#00c4e2",
+      "likeCnt": 11,
+      "rate": 2
+    },
+    {
+      "id": "b002",
+      "title": "강아지키우기",
+      "content": "옆에서 자는것",
+      "color": "#26ac56",
+      "likeCnt": 22,
+      "rate": 3
+    },
+    {
+      "id": "c003",
+      "title": "샴고양이키우기",
+      "content": "하루에 세번씩은 밥주기",
+      "color": "#ffff00",
+      "likeCnt": 33,
+      "rate": 1
+    },
+    {
+      "id": "d004",
+      "title": "여우키우기",
+      "content": "씻기기",
+      "color": "#00efe2",
+      "likeCnt": 44,
+      "rate": 4
+    },
+    {
+      "id": "e005",
+      "title": "늑대키우기",
+      "content": "먹이주기",
+      "color": "#67c6e2",
+      "likeCnt": 55,
+      "rate": 5
+    }
+  ]
+}

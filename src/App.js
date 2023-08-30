@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import 'App.css';
+import Header from 'layout/Header';
+import React from 'react';
+import ListPost from 'post/ListPost';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div className="App">
+			<Header />
+			<div className='box'>
+			<ListPost />
+
+			</div>
+		</div>
+	);
 }
 
-export default App;
+
+
+/*
+export default function App() {
+  return (
+	<div className="App">
+	  <Header />
+	  {[...Array].map((_,i) =>(
+	  <ListPost key={i}/>))}
+
+	</div>
+  );
+}
+*/
